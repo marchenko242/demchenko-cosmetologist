@@ -1,0 +1,134 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    height: 85%;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #D8C781;
+}
+
+.titlecontact {
+    color: #D8C781;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.blockInst,
+.blockPhone,
+.locationStyle {
+    background: linear-gradient(135deg, #1c1c1c, #3c3c3c);
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+}
+
+.blockInst:hover,
+.blockPhone:hover,
+.locationStyle:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#blockViber:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#blockViber {
+    cursor: pointer;
+    background: linear-gradient(135deg, #1c1c1c, #3c3c3c);
+    padding: 20px;
+    border-radius: 20px;
+    width: 93%;
+
+}
+
+.instagramLink,
+.viberLink {
+    text-decoration: none;
+    color: #D8C781;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.instagramLink:hover,
+.viberLink:hover {
+    color: #D8C781;;
+    text-shadow: 0 0 10px #D8C781;
+}
+
+.styleForPhone {
+    text-decoration: none;
+    color: #D8C781;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.styleForPhone:hover {
+    color: #D8C781;
+    text-shadow: 0 0 10px #D8C781;
+}
+
+.removeTextDecoration {
+    text-decoration: none;
+}
+
+.iconStyle {
+    margin-right: 10px;
+    fill: #D8C781;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.iconStyle:hover {
+    transform: scale(1.3);
+    fill: #D8C781;
+}
+
+.iframe {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.locationStyle h3 {
+    margin: 10px 0;
+    color: #D8C781;
+}
+
+.locationStyle iframe {
+    margin-top: 15px;
+}
+
+.linkForMap {
+    text-decoration: none;
+    color: #D8C781;
+
+}
+
+.linkForMap:hover {
+    color: #D8C781;;
+    text-shadow: 0 0 10px #D8C781;
+}

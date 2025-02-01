@@ -1,0 +1,93 @@
+.blockForPrice {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #D8C781;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+    max-width: 1243px;
+    margin: 0 auto;
+}
+
+.positionOfServices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.block {
+    width: 150%;
+    border: 1px solid #D8C781;
+    border-radius: 10px;
+    background-color: #292929;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    height: 60px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.block.collapsed {
+    height: 40px;
+    max-height: 40px;
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+
+.block.active {
+    height: auto;
+    max-height: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    color: #D8C781;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.headerActive {
+    font-size: 22px;
+    color: #D8C781;
+    text-shadow: 0 0 10px #D8C781;
+}
+
+.content {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #D8C781;
+
+}
+
+.imageStyle {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.imageStyleLogo {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-left: 320px;
+}
+
+.imageBlock {
+    margin-left: 280px;
+}

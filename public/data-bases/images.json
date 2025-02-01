@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "first": [
+        {
+          "before" : "/before-after-images/first/before.png",
+          "id" : 1
+        },
+        {
+          "after": "/before-after-images/first/after.png",
+          "id" : 2
+        }
+      ],
+      "second" : [
+        {
+          "before" : "/before-after-images/second/before.png",
+          "id" : 3
+        },
+        {
+          "after": "/before-after-images/second/after.png",
+          "id" : 4
+        }
+      ],
+      "third" : [
+        {
+          "before" : "/before-after-images/third/before.png",
+          "id": 5
+        },
+        {
+          "after": "/before-after-images/third/after.png",
+          "id": 6
+        }
+      ],
+      "firth" : [
+        {
+          "before" : "/before-after-images/firth/before.png",
+          "id": 7
+        },
+        {
+          "after": "/before-after-images/firth/after.png",
+          "id": 8
+        }
+      ]
+    }
+  ]
+}

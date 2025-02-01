@@ -1,0 +1,80 @@
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    color: #D8C781;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+.header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeInText 2s forwards;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid #D8C781;
+    box-shadow: 0 0 15px rgba(216, 199, 129, 0.7);
+    transform: scale(0.9);
+    transition: transform 0.5s ease-in-out;
+    animation: zoomIn 1s ease-out;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

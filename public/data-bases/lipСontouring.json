@@ -1,0 +1,45 @@
+{
+  "lipСontouring": [
+    {
+      "id": 1,
+      "name": "Препарат REVOLAX",
+      "amount": "1 ml",
+      "price": "4300 грн"
+    },
+    {
+      "id": 2,
+      "name": "Препарат STYLAGE M",
+      "amount": "1 ml",
+      "price": "5000 грн"
+    },
+    {
+      "id": 3,
+      "name": "Juvederm Ultra Smile",
+      "amount": "0.55 ml",
+      "price": "4000 грн"
+    },
+    {
+      "id": 4,
+      "name": "Juvederm Volift Retouch",
+      "amount": "0.55 ml",
+      "price": "4300 грн"
+    },
+    {
+      "id": 5,
+      "name": "Juvederm Ultra 3",
+      "amount": "1 ml",
+      "price": "5500 грн"
+    },
+    {
+      "id": 6,
+      "name": "Juvederm Volift",
+      "amount": "1 ml",
+      "price": "6300 грн"
+    },
+    {
+      "id": 7,
+      "name": "Гіалуронідаза (розч. губ)",
+      "price": "1200 грн"
+    }
+    ]
+}

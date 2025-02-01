@@ -1,0 +1,49 @@
+{
+  "injectionCosmetology": [
+    {
+      "id": 1,
+      "name": "Мезотерапія",
+      "price": "від 1000 грн"
+    },
+    {
+      "id": 2,
+      "name": "Біоревіталізація",
+      "price": "від 2000 грн"
+    },
+    {
+      "id": 3,
+      "name": "Meso Wharton P199",
+      "price": "4000 грн"
+    },
+    {
+      "id": 4,
+      "name": "Jalupro HMW",
+      "price": "3800 грн"
+    },
+    {
+      "id": 5,
+      "name": "S-DNA 0,2%",
+      "price": "3000 грн"
+    },
+    {
+      "id": 6,
+      "name": "REJURAN I",
+      "price": "3000 грн"
+    },
+    {
+      "id": 7,
+      "name": "REJURAN S",
+      "price": "3000 грн"
+    },
+    {
+      "id": 8,
+      "name": "REJURAN Healer",
+      "price": "4000 грн"
+    },
+    {
+      "id": 9,
+      "name": "REJURAN HB Plus",
+      "price": "3500 грн"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.stylesForFooter {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #D8C781;
+    background: linear-gradient(to bottom, #111, #333);
+}
+
